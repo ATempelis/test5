@@ -1,0 +1,15 @@
+{
+  "name": "Test5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.21.5",
+    "files-folder": "^1.2.4"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node esbuildWatch.js",
+    "build": "node esbuildProd.js"
+  }
+}
